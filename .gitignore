@@ -1,0 +1,182 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+tensorflow-gpu/
+tf21-gpu/
+
+# ============================================================
+# Jupyter
+# ============================================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================================
+# Local development
+# ============================================================
+
+.vscode/
+.idea/
+
+# ============================================================
+# OS files
+# ============================================================
+
+.DS_Store
+Thumbs.db
+
+# ============================================================
+# Python cache / tooling
+# ============================================================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# ============================================================
+# Dataset / large files
+# ============================================================
+
+data/
+dataset/
+datasets/
+
+*.csv
+*.zip
+
+# Images used only for local testing
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# ============================================================
+# Temporary files
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+
+# ============================================================
+# Model temporary / backup files
+# ============================================================
+
+*.h5
+*.hdf5
+*.ckpt
+*.keras.bak
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+tensorflow-gpu/
+tf21-gpu/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# VS Code / IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+*:Zone.Identifier
+
+# =========================
+# Python cache / tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Secrets
+# =========================
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# =========================
+# Dataset / training data
+# =========================
+data/
+dataset/
+datasets/
+
+# Don't upload downloaded datasets
+*.csv
+*.zip
+
+# =========================
+# Local test images
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.webp
+
+# =========================
+# Temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Temporary model files
+# =========================
+*.h5
+*.hdf5
+*.ckpt
+*.keras.bak
+
+# =========================
+# Keep production model
+# =========================
+!models/
+!models/clothing_mobilenetv2_final.keras
+
+# Keep configuration
+!config/
+!config/class_names.json
